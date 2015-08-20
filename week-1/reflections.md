@@ -9,14 +9,14 @@ Time Boxing, was a relatively new idea. Time Boxing is assigning a specific amou
 
 I think that my current management style is very much in the nature of taking things as they come. I look at the week ahead of me and try to plan out time for each given task. I think that, moving forward, it's going to be important for me to concentrate on creating small specific tasks, rather than focusing on accomplishing huge lofty, less tangible ones.
 
-## The Command Line:
+# The Command Line:
 A shell is a user interface, typically a Command Line Interface or a Graphical User Interface, that allows the user direct control to the operating system. Bash, stands for Bourne Again Shell, and is a widely used version of the shell for UNIX.
 
 The most challenging part of this material was piping and redirection. I was able to execute all of the commands successfully, but I feel that I need a bit more practice with the < , > , and |  commands. I think the most important commands are learning how to move through the shell, how to navigate directories and also how to get to and look through the manual. 
 
 pwd = print working directory, ls = list directory, mv = move file, cd = change directory, ../ = go up a directory, touch = make or update a file, mkdir = make directory, less = lets you look at a document one page at a time, rmdir = remove directory, rm = remove file, help or man = brings up the user manual.
 
-### Create, Fork, Clone:
+# Create, Fork, Clone:
 I would say to follow the following steps:
 
 Sign in to Github, view your profile, click on the plus sign in the upper right hand cornor and select new repository.  Next type in the name, select if you want ti to be public or private, determine whether you want to add a license (not sure what they are for yet) and click create.
