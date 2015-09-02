@@ -1,0 +1,79 @@
+* {
+    color:#000080; 
+    background-color: #ffffff;
+  }
+a {
+    color:#800080;
+    font-size: 1em;
+}
+a:visited {
+    color:#ff0000;
+}
+
+.first-col {
+    float: left;
+    width: 50%
+}
+
+.second-col {
+    float: right;
+    width: 50%
+}
+
+.info {
+    font-size:.8em;
+    color:black;
+}
+
+h1, h2, h3 {
+    font-weight:bold;font-size: 1.2em;
+    text-align: center;
+}
+
+
+.cap-b {
+    font-size: 2em;
+}
+
+.cap-h {
+    font-size: 2em;
+}
+
+header {
+    border-bottom:2px solid black;
+}
+
+img {
+    align: center;
+}
+
+section {border-bottom:2px solid black;}
+
+/*
+
+
+What is important to know when linking an external file (like a stylesheet) to 
+an HTML file? 
+Include href, rel, and type. We had some trouble getting this to work properly for some reason.
+
+What tricks did you use to help you with positioning? How hard was it to get 
+the site as you wanted it?
+We used align and float but it didn't seem to work as well as just using a table.
+
+What CSS did you use to modify the element style (like size, color, etc.)
+We used font-size, font-weight, and color.
+
+Did you modify the HTML to include classes or ids? If so, which did you chose 
+and why? If you didn't, how would you know which one to add to your HTML?
+We made a few classes to target specific sections, we didn't use any IDs. We used one 
+to change the text size of the text next to the links.
+
+When you compared your site to the actual code base, which do you think had 
+cleaner code that followed best practices and why?
+I think ultimately CSS could definately have cleaner and easier to read code, but
+we did have some trouble with some of the stylings. I could easilly see though
+that css, in a seperate file is much easier to read that a bunch of html styling on the
+html page.
+
+
+*/
