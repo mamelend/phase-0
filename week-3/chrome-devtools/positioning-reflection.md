@@ -1,12 +1,12 @@
-![pic 1](/imgs/dt_341.png)
-![pic 2](/imgs/dt_342.png)
-![pic 3](/imgs/dt_343.png)
-![pic 4](/imgs/dt_344.png)
-![pic 5](/imgs/dt_345.png)
-![pic 6](/imgs/dt_346.png)
-![pic 7](/imgs/dt_347.png)
-![pic 8](/imgs/dt_348.png)
-![pic 9](/imgs/dt_349.png)
+![pic 1](imgs/dt_341.png)
+![pic 2](imgs/dt_342.png)
+![pic 3](imgs/dt_343.png)
+![pic 4](imgs/dt_344.png)
+![pic 5](imgs/dt_345.png)
+![pic 6](imgs/dt_346.png)
+![pic 7](imgs/dt_347.png)
+![pic 8](imgs/dt_348.png)
+![pic 9](imgs/dt_349.png)
 
 **How can you use Chrome's DevTools inspector to help you format or position elements?**
 
