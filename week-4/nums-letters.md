@@ -24,3 +24,32 @@ puts 24 * 365
 Release 2.2:
 puts 60 * 24 * (365 * 10 +2)
 ```
+
+**How does Ruby handle addition, subtraction, multiplication, and division of numbers?**
+
+* Ruby has predefined methods that can be called on integers that will handle basic arithmetic. The symbols +, -, *, and / respectively provide the coresponding math. *
+
+**What is the difference between integers and floats?**
+
+* Integers are whole numbers, Floats contain decimals.*
+
+**What is the difference between integer and float division?**
+
+* Integer division will return the most times a number can be divded into another, while intege division will provide the fraction.*
+
+**What are strings? Why and when would you use them?**
+
+* Strings are a group of characters linked together in a sequence. You can use them to display information to a user.*
+
+**What are local variables? Why and when would you use them?**
+
+* local variables are variables defined within a certain document whose definitions are contained within the document. *
+
+**How was this challenge? Did you get a good review of some of the basics?**
+
+* The challenge seemed like a lot fo work at first glance, but the work was relatively straight forward and easy to accomplish. I think I have a good feel for the basics.*
+
+
+[Defining Variables](https://github.com/mamelend/phase-0/blob/master/week-4/defining-variables.rb)
+[Simple String Methods](https://github.com/mamelend/phase-0/blob/master/week-4/simple-string.rb)
+[Local Variables and Basic Arithmetical Operations](https://github.com/mamelend/phase-0/blob/master/week-4/basic-math.rb)
