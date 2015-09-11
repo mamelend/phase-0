@@ -39,11 +39,16 @@ end
 
 
 # 5. sentence_maker initial solution
-def sentence_maker(list_of_words)
-	list_of_words.join(' ').capitalize << "."
-end
+#def sentence_maker(list_of_words)
+#abc = list_of_words.join(' ')
+#abc.capitalize!
+#abc << "."
+#abc
+#end
 
 
 # 6. sentence_maker refactored solution
-
+def sentence_maker(list_of_words)
+	list_of_words.join(' ').capitalize << "."
+end
 
