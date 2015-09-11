@@ -40,11 +40,7 @@ end
 
 # 5. sentence_maker initial solution
 def sentence_maker(list_of_words)
-
-  abc = list_of_words.join(' ')
-  abc << "."
-  abc.capitalize!
-  abc
+	list_of_words.join(' ').capitalize << "."
 end
 
 
