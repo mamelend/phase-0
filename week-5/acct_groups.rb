@@ -31,7 +31,6 @@
 def acct_groups(list_of_names)
   new_list = list_of_names.sort.shuffle.each_slice(4).to_a
   if new_list[-1].length < 3           
-    puts new_list[-1]
     (new_list[-1] << new_list[-2]).flatten!
   end
   new_list
