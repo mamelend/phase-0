@@ -5,13 +5,14 @@
 i_want_pets = ["I", "want", 3, "pets", "but", "only", "have", 2]
 my_family_pets_ages = {"Evi" => 6, "Ditto" => 3, "Hoobie" => 3, "George" => 12, "Bogart" => 4, "Poly" => 4, "Annabelle" => 0}
 
+include Enumerable
 # Person 1's solution
 def my_array_finding_method(source, thing_to_find)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.grep(/#{thing_to_find}/)
 end
 
 def my_hash_finding_method(source, thing_to_find)
-  source # This line is here to make sure all tests initially fail. Delete it when you begin coding.
+  source.select! {|k, v|  v == thing_to_find}.keys
 end
 
 # Identify and describe the Ruby method(s) you implemented.
