@@ -3,14 +3,16 @@
 
 # I worked on this challenge [by myself, with: ]. SOLO
 # I spent [#] hours on this challenge.
+# 1 Hour
 
 # Pseudocode
+
+# Input: array of values for each side of the die.
+# Output: NUmber of sides and a random dice roll.
+# Steps:
 # We should start by checking IF labels is empty, if it is raise argument error, if not store it in an instance variable.
 # Next we should set the sides equal to the size of the array.
-
-# Input:
-# Output:
-# Steps:
+# Lastly return a random number as an index into the array.
 
 
 # Initial Solution
