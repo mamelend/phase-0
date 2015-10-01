@@ -1,8 +1,8 @@
  // JavaScript Olympics
 
-// I paired [by myself, with:] on this challenge.
+// I paired [by myself, with:] on this challenge. Ryan Lesson
 
-// This challenge took me [#] hours.
+// This challenge took me [#] hours. 1 hour
 
 
 // Warm Up
