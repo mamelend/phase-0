@@ -15,6 +15,30 @@ end function
 */
 
 // Initial Solution
+
+// function separate_comma(number){
+//   var array = number.toString().split("");
+//   array.reverse();
+//   console.log(array);
+//   var newArray = [];
+//   var counter = 0
+//   for (var entry in array){
+//     if(counter % 3 === 0 && counter != 0){
+//       newArray.push(array[entry] + ",");
+//     }
+//     else{
+//       newArray.push(array[entry]);
+//     }
+//     counter++;
+//   }
+//   newArray.reverse()
+//   return newArray.join("");
+
+// }
+
+// console.log(separate_comma(1234567));
+
+
 // function separate_comma(number){
 //   var array = number.toString().split("");
 //   array.reverse();
