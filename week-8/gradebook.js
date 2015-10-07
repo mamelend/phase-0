@@ -80,8 +80,7 @@ function average(numbers){
 // Iterate through each student and add to gradebook a new object called (student name) 
 // that contains a key named testScores with an array that matches the respective score array.
 for (var i in students) {
-var assign = {testScores: scores[i]};
-gradebook[students[i]] = assign;
+gradebook[students[i]] = {testScores: scores[i]};
 }
 
 
