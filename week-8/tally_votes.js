@@ -1,6 +1,6 @@
 // Tally Votes in JavaScript Pairing Challenge.
 
-// I worked on this challenge with:
+// I worked on this challenge with: Pamela Antonow
 // This challenge took me [#] hours.
 
 // These are the votes cast by each student. Do not alter these objects here.
@@ -67,30 +67,92 @@ var officers = {
 
 // __________________________________________
 // Initial Solution
+// for (var pos in voteCount) {
+// //console.log(pos);
+//   for (var keys in votes) {
+//     //Check for president
+//     //console.log(votes[keys].president);
+//     if (!voteCount[pos].hasOwnProperty(votes[keys][pos]))    {
+// //       console.log("new " + votes[keys].president)
+//       voteCount[pos][votes[keys][pos]] = 1;
+// //       console.log(voteCount.president);
+//     }
+//     else if (voteCount[pos].hasOwnProperty(votes[keys][pos])) {
+//       voteCount[pos][votes[keys][pos]] += 1;
+//       //console.log("match " + voteCount.president[keys])
+//     }
+//   }
+// }
 
 
-
-
-
-
+// for (var pos in officers){
+//   var highest = "";
+//   var highestNumber = 0;
+//   for (var name in voteCount[pos]) {
+//     //console.log(voteCount[pos][name]);
+//     if (voteCount[pos][name] > highestNumber){
+//       highestNumber = voteCount[pos][name];
+//       highest = name;
+//     }
+//     else {
+//       continue;
+//     }
+    
+//   }
+//   officers[pos] = highest;
+// }
+//console.log(voteCount);
 
 // __________________________________________
 // Refactored Solution
+for (var pos in voteCount) {
+  for (var keys in votes) {
+    if (!voteCount[pos].hasOwnProperty(votes[keys][pos]))    {
+      voteCount[pos][votes[keys][pos]] = 1;
+    }
+    else if (voteCount[pos].hasOwnProperty(votes[keys][pos])) {
+      voteCount[pos][votes[keys][pos]] += 1;
+    }
+  }
+}
 
+for (var pos in officers){
+  var highest = "";
+  var highestNumber = 0;
+  for (var name in voteCount[pos]) {
+    if (voteCount[pos][name] > highestNumber){
+      highestNumber = voteCount[pos][name];
+      highest = name;
+    }
+    else {
+      continue;
+    }
+    
+  }
+  officers[pos] = highest;
+}
 
-
-
-
-
-// __________________________________________
+/*__________________________________________
 // Reflection
 
+What did you learn about iterating over nested objects in JavaScript?
+
+Wooooooo, that was tough. I learned that in order to access specific objects within
+objects you need to use nested for loops. It took a long while. but I eventually learned
+how to access each value. It isn't very straight forward, but using console.log() to display
+values was extremely helpful
+
+Were you able to find useful methods to help you with this?
+hasOwnProperty helped me to detemrine whether an object was already a property of 
+another object.
 
 
-
-
+What concepts were solidified in the process of working through this challenge?
+So many! Iteration, conditionals, javascript basic syntax, and def object accessing.
 
 // __________________________________________
+*/
+
 // Test Code:  Do not alter code below this line.
 
 
