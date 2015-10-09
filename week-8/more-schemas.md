@@ -1,7 +1,7 @@
-![One-to-one](/imgs/onetoone.png)
+![One-to-one](imgs/onetoone.png)
 1) My model, concerning a customer, a games retailer, and purchased games, demonstrates a one to one relationship because the games don't necessarily have dlc, and so to always have slots for that information could potentially leave a lot of empty space in the database.
 
-![Many-to-many](/imgs/manytomany.png)
+![Many-to-many](imgs/manytomany.png)
 2) Grocery List!
 
 **What is a one-to-one database?**
