@@ -1,3 +1,4 @@
+// 9.2.1 JavaScript Grocery List
 // SOLO'd this one!
 
 // Release 2: Pseudocode
